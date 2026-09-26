@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе — Книжный червь</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-list {
+            padding-left: 30px;
+            margin-bottom: 20px;
+            list-style-type: decimal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Чеботарёв Владислав</h1>
+        <h2>Книжный червь и писатель</h2>
+        <img 
+            src="images/avatar.jpg" 
+            width="300" 
+            height="300"
+            alt="Аватар Чеботарёв Владислав умный парень с пером"
+            style="max-width: 100%;"
+        >
+    </header>
+    <div class="wrapper">
+        <main>
+            <section>
+                <h2>Навыки</h2>
+                <ul>
+                    <li>Анализ художественных текстов</li>
+                    <li>Написание рецензий</li>
+                    <li>Работа с источниками</li>
+                    <li>Редактура и вычитка</li>
+                    <li>Создание литературных сценариев</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Проекты:</h2>
+                <ol class="project-list">
+                    <li>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">«Дом листьев»</div>
+                                <div class="flip-card-back">Экспериментальный роман о памяти и архитектуре пространства.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">«Тайная история»</div>
+                                <div class="flip-card-back">Интеллектуальный триллер о студентах-классиках и роковой ошибке.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">«Сто лет одиночества»</div>
+                                <div class="flip-card-back">Эпическая сага о семье Буэндиа и магическом реализме.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">«Книжный вор»</div>
+                                <div class="flip-card-back">История о силе слов и человечности в годы Второй мировой войны.</div>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>✉️ Обратная связь</h2>
+                <form>
+                    <label for="username">Имя:</label>
+                    <input type="text" id="username" name="username" placeholder="Введите ваше имя" required>
+                    
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="example@mail.com" required>
+                    
+                    <label for="usermessage">Сообщение:</label>
+                    <textarea id="usermessage" name="usermessage" placeholder="Напишите ваше сообщение..." required></textarea>
+                    
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+        <aside>
+            <h3>☕ Любимый автор и жанр</h3>
+            <p><strong>Автор:</strong> Поэт Жан Жар де Жуй</p>
+            <p><strong>Жанры:</strong> проза, интеллектуальный роман</p>
+        </aside>
+    </div>
+    <footer>
+        <p>© 2026 Чеботарёв Владислав</p>
+    </footer>
+</body>
+</html>
